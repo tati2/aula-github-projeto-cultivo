@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+header{
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 3vw;
+    margin-left: 5vw;
+}
+ul{    
+    width: 30vw;    
+    list-style: none;
+    padding-right: 3vw;
+    display: flex;
+    justify-content: space-around;  
+
+}
+header li{
+    color: darkslategray;
+    font-weight: bold;
+}
+.container-plantas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vh;
+}
+.suculenta{
+    width: 45%;
+}
+.cultivo{
+    width: 45%;
+}
+.container-sobre{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.box-cultivo{
+    width: 45%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-cultivo p{
+    width: 90%;
+    color: grey;
+    text-align: justify;
+    padding-top:5vh;
+}
+.box-cultivo h2{
+    color: darkslategray;
+}
+
+.box-img-cultivo{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.box-img-cultivo img{
+    width: 100%;
+}
